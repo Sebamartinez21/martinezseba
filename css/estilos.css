@@ -1,0 +1,303 @@
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+.coloDefondo {
+background-color: rgb(15, 11, 241);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+margin-top: 10px; 
+}
+@media (min-width: 991.98px) {
+nav {
+margin-top: 10px; 
+  }
+}
+@media (max-width: 991.98px) {
+.navbar-toggler-icon {
+background-image: linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1)),
+linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1)), 
+linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1));
+background-size: 100% 3px;
+background-position: 0 0, 0 10px, 0 20px; 
+background-repeat: no-repeat;
+  }
+}
+.coloDefondo .navbar-nav .nav-link {
+color: rgba(214, 252, 78, 1);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coloDefondo .navbar-nav .nav-link.active {
+color: rgba(214, 252, 78, 1);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+display: grid;
+}
+.seccionUno {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+}
+.line {
+display: grid;
+grid-row: auto;
+justify-content: center;
+width: 100%;  
+margin: 10px 0px;
+background-color: rgba(214, 252, 78, 1);
+}
+.uneteA {
+color:  rgb(15, 11, 241);
+text-decoration: none;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 36px;
+}
+.line:hover{
+background-color: whitesmoke ;
+}
+.color {
+color: rgb(15, 11, 241);
+}
+.custom-menu-width {
+width: 200px; 
+}
+.carousel-inner{
+padding: 20px;
+}
+.imgcarousel{
+height: 480px;
+object-fit: cover;
+}
+h2 {
+color: rgba(163, 13, 137, 1);
+margin: 5px;
+padding: 10px;
+}
+.texto {
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+padding: 10px;
+}
+.seccionDos {
+text-align: center; 
+padding: 20px; 
+}
+.imagenes img {
+max-width: 100%; 
+height: auto; 
+border-radius: 10px; 
+}
+.conoceMas {
+display:grid;
+justify-self: end;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+background-color:rgba(163, 13, 137, 1);
+border: none;
+border-radius: 20px;
+color: #fff;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+}
+footer {
+background-color: #eee9e9;
+}
+.reserva {
+color: rgb(15, 11, 241);
+width: 100%;
+}
+.mainUno {
+display: grid;
+width: 100%;
+}
+form {
+margin-top: 20px;
+margin-right: 10px;
+}
+label {
+display: block;
+font-weight: bold;
+margin: 20px;
+margin-bottom: 5px;
+color: #333; 
+}
+#email{
+display: block;
+width:50%;
+margin: 20px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 20px;
+margin-bottom: 10px;
+box-shadow: 5px 2px 5px;
+opacity: 20px;
+color: gray;
+}
+#email:focus{
+background-color: rgb(203, 207, 206);
+}
+.campos {
+display: block;
+width: 50%;
+margin: 20px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 20px;
+margin-bottom: 10px;
+box-shadow: 5px 2px 5px;
+opacity: 20px;
+color: gray;
+}
+.campos:focus{
+background-color: rgb(203, 207, 206);
+}
+.horario {
+display: block;
+width: 50%;
+margin: 20px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 20px;
+margin-bottom: 10px;
+box-shadow: 5px 2px 5px;
+opacity: 20px;
+color: gray;
+}
+.dia {
+display: block;
+width: 50%;
+margin: 20px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 20px;
+margin-bottom: 10px;
+box-shadow: 5px 2px 5px;
+opacity: 20px;
+color: gray;
+}
+.cancha {
+display: block;
+width: 50%;
+margin: 20px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 20px;
+margin-bottom: 10px;
+box-shadow: 5px 2px 5px;
+opacity: 20px;
+color: gray;
+}
+.btnFormulario {
+background-color: rgb(66, 218, 66);
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 20px;
+margin-top: 10px;
+cursor: pointer;
+display: grid;
+grid-template-columns: 1fr auto; 
+place-items: center;
+justify-self: center;
+text-decoration: none;
+}
+.btnFormularioUno {
+background-color: rgb(223, 89, 89);
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 20px;
+margin-top: 10px;
+cursor: pointer;
+display: grid;
+grid-template-columns: 1fr auto; 
+place-items: center;
+justify-self: center;
+text-decoration: none;
+}
+@media (max-width: 767px) {
+.btnFormulario,
+.btnFormularioUno {
+width: 100%;
+  }
+}
+.referenciasReservas {
+color: rgb(15, 11, 241);
+display: block;
+width: 100%;
+margin: 10px;
+padding: 10px;
+}
+.iframe {
+display: block;
+width: 100%;
+margin: auto;
+cursor: pointer;
+}
+.mainEntrenamiento {
+margin-top: 5px;
+}
+.entrenamientoBtn {
+background-color: rgb(44, 223, 44);
+border: none;
+border-radius: 20px;
+padding: 10px;
+color: #fff;
+cursor: pointer;
+text-decoration: none;
+}
+.entrenamientoBtn:hover{
+background-color: rgb(79, 170, 79)
+}
+.tituloEntrenamiento{
+color: rgb(15, 11, 241);
+}
+.textoEntrenamiento{
+text-align: justify;
+}
+.imgEntrenamiento{
+border-radius: 20px;
+}
+.btnCompetencias{
+background-color: rgb(44, 223, 44);
+color: #fff;
+}
+.btnCompetencias:hover {
+background-color: rgb(6, 248, 78); 
+color: #fff; 
+}
+.tituloCompetencias{
+color: rgb(15, 11, 241);
+}
+.textoCompetencias {
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+}
+.btnEquipamiento{
+background-color: rgb(6, 248, 78); 
+color: #fff; 
+}
+.btnEquipamiento:hover {
+background-color: rgb(6, 248, 78); 
+}
+.tituloTarjetae{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(15, 11, 241);
+}
