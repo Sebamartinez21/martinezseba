@@ -271,9 +271,8 @@ width: 100%;
 margin: auto;
 cursor: pointer;
 }
-.descripcion-entrenamiento {
-margin-top: 2px;
-margin-bottom: 2px;
+.container {
+margin-top: 5px;
 }
 .entrenamientoBtn {
 background-color: rgb(44, 223, 44);
