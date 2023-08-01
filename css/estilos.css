@@ -121,6 +121,7 @@ background-color: #eee9e9;
 .reserva {
 color: rgb(15, 11, 241);
 width: 100%;
+margin-left: 10px;
 }
 .mainUno {
 display: grid;
@@ -270,8 +271,9 @@ width: 100%;
 margin: auto;
 cursor: pointer;
 }
-.mainEntrenamiento {
-margin-top: 5px;
+.descripcion-entrenamiento {
+margin-top: 2px;
+margin-bottom: 2px;
 }
 .entrenamientoBtn {
 background-color: rgb(44, 223, 44);
