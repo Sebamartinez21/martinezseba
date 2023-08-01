@@ -345,16 +345,17 @@ margin-bottom: 15px;
  }
 }
 .tarjetaPersonalizada {
-  background-color: #e0dede; 
+  background-color:rgb(15, 11, 241); 
+  color: #fff;
 }
 .btnEquipamiento{
-background-color: rgb(6, 248, 78); 
-color: #fff; 
+background-color: rgba(214, 252, 78, 1); 
+color: rgb(15, 11, 241); 
 }
 .btnEquipamiento:hover {
 background-color: rgb(6, 248, 78); 
 }
 .tituloTarjetae{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(8, 8, 8);
+color:rgba(214, 252, 78, 1);
 }
