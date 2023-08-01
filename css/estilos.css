@@ -322,19 +322,9 @@ color: rgb(15, 11, 241);
 .textoCompetencias {
 font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
-text-align: center;
+text-align: justify;
 }
-main {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-.col-xl-3 {
-flex: 1 0 20%; 
-margin: 10px; 
-min-height: 100%; 
-}
-main {
+.cardsequipamiento {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -364,6 +354,7 @@ margin: 5px;
 margin-bottom: 15px;
  }
 }
+
 .tarjetaPersonalizada {
   background-color:rgb(15, 11, 241); 
   color: #fff;
