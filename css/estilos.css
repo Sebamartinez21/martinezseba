@@ -265,6 +265,20 @@ text-decoration: none;
 .entrenamientoBtn:hover{
 background-color: rgb(79, 170, 79)
 }
+.mainEntrenamiento .container {
+margin-bottom: 20px; 
+}
+@media (max-width: 767.98px) {
+.mainEntrenamiento .row {
+justify-content: center; 
+}
+}
+.mainEntrenamiento .container {
+margin-bottom: 10px; 
+}
+.mainEntrenamiento .col-lg-6 {
+margin-bottom: 10px; 
+}
 .tituloEntrenamiento{
 color: rgb(15, 11, 241);
 }
@@ -290,6 +304,49 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
 text-align: center;
 }
+main {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.col-xl-3 {
+flex: 1 0 20%; 
+margin: 10px; 
+min-height: 100%; 
+}
+main {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.col-xl-3 {
+flex: 0 0 20%; 
+margin: 10px; 
+min-height: 100%; 
+}
+@media (max-width: 1439.98px) {
+.col-xl-3 {
+flex-basis: 20%; 
+}
+}
+@media (max-width: 1199.98px) {
+.col-xl-3 {
+flex-basis: 20%; 
+  }
+}
+@media (max-width: 768px) {
+.container-tarjetas .row {
+justify-content: center; 
+margin: 0 -5px; }
+.col-xl-3 {
+flex-basis: 40%; 
+margin: 5px; 
+margin-bottom: 15px;
+ }
+}
+.tarjetaPersonalizada {
+  background-color: #e0dede; 
+}
 .btnEquipamiento{
 background-color: rgb(6, 248, 78); 
 color: #fff; 
@@ -299,5 +356,5 @@ background-color: rgb(6, 248, 78);
 }
 .tituloTarjetae{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(15, 11, 241);
+color: rgb(8, 8, 8);
 }
