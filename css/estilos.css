@@ -4,12 +4,52 @@ margin:0;
 padding: 0;
 box-sizing: border-box;
 }
+
 .coloDefondo {
 background-color: rgb(15, 11, 241);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav {
-margin-top: 10px; 
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+}
+.navbar-brand {
+margin-right: 20px;
+}
+.dropdown {
+margin-left: 20px;
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: rgba(214, 252, 78, 1);
+  background-image: linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
+    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
+    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
+  background-size: 100% 3px;
+  background-position: 0 0, 0 10px, 0 20px; /* Agregar posición para las otras dos líneas */
+  background-repeat: no-repeat;
+}
+
+/* Estilos para el menú desplegado en vista móvil */
+@media (max-width: 991.98px) {
+  .navbar-toggler-icon {
+    background-size: 100% 3px;
+    background-position: 0 0, 0 10px, 0 20px; /* Repetir la posición para las otras dos líneas */
+    background-repeat: no-repeat;
+
+    /* Agregar posición para las otras dos líneas */
+    background-position: 0 0, 0 10px, 0 20px, 0 30px, 0 40px;
+    transform: rotate(0deg); /* Asegurarse de que el ícono no tenga rotación */
+  }
+
+  /* Estilos para las líneas del menú hamburguesa en vista móvil */
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    border-color: rgba(214, 252, 78, 1);
+  }
 }
 @media (min-width: 991.98px) {
 nav {
@@ -18,9 +58,6 @@ margin-top: 10px;
 }
 @media (max-width: 991.98px) {
 .navbar-toggler-icon {
-background-image: linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1)),
-linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1)), 
-linear-gradient(rgba(214, 252, 78, 1),rgba(214, 252, 78, 1));
 background-size: 100% 3px;
 background-position: 0 0, 0 10px, 0 20px; 
 background-repeat: no-repeat;
@@ -320,54 +357,92 @@ color: #fff;
 .tituloCompetencias{
 color: rgb(15, 11, 241);
 }
-.textoCompetencias {
-font-family: Arial, Helvetica, sans-serif;
-font-size: medium;
-text-align: justify;
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white; /* Fondo gris claro del body */
 }
-.cardsequipamiento {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+
+.mainEquipamiento {
+  background-color:white;
+  padding: 20px;
 }
-.col-xl-3 {
-flex: 0 0 20%; 
-margin: 10px; 
-min-height: 100%; 
-}
-@media (max-width: 1439.98px) {
-.col-xl-3 {
-flex-basis: 20%; 
-}
-}
-@media (max-width: 1199.98px) {
-.col-xl-3 {
-flex-basis: 20%; 
-  }
-}
-@media (max-width: 768px) {
-.container-tarjetas .row {
-justify-content: center; 
-margin: 0 -5px; }
-.col-xl-3 {
-flex-basis: 40%; 
-margin: 5px; 
-margin-bottom: 15px;
- }
+
+.containerTarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px; /* Agregar un padding al contenedor principal para evitar desbordamiento */
+  box-sizing: border-box; /* Asegurar que el padding y el borde no aumenten el tamaño */
 }
 
 .tarjetaPersonalizada {
-  background-color:rgb(15, 11, 241); 
+  flex: 1 0 calc(50% - 15px); /* Ajustar el ancho de las tarjetas */
+  max-width: 18rem;
+  background-color: rgb(15, 11, 241); /* Fondo azul de las tarjetas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tarjetaPersonalizada .cardImgTop {
+  width: 100%;
+  height: auto;
+}
+
+.tarjetaPersonalizada .cardBody {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; /* Asegurar que el contenido se expanda en toda la altura */
+}
+
+.tituloTarjetas {
+  font-size: 2rem;
+  color: rgba(214, 252, 78, 1); /* Título en amarillo fluo */
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjetaPersonalizada .cardText {
+  font-size: 1rem;
+  color: rgba(214, 252, 78, 1); /* Texto en amarillo fluo */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tarjetaPersonalizada .btnEquipamiento {
+  background-color: #2cdd2c;
   color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 1rem;
 }
-.btnEquipamiento{
-background-color: rgba(214, 252, 78, 1); 
-color: rgb(15, 11, 241); 
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767.98px) {
+  .tarjetaPersonalizada {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
 }
-.btnEquipamiento:hover {
-background-color: rgb(6, 248, 78); 
+
+/* Estilos para tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tarjetaPersonalizada {
+    flex: 1 0 calc(50% - 20px); /* Ajustar el ancho de las tarjetas en tablet */
+  }
 }
-.tituloTarjetae{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color:rgba(214, 252, 78, 1);
+
+/* Estilos para resoluciones mínimas */
+@media (min-width: 320px) and (min-height: 844px) {
+  .containerTarjetas {
+    margin: 20px; /* Ajustar el margen entre las tarjetas y el header y footer */
+  }
 }
