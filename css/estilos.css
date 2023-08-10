@@ -47,9 +47,6 @@ background-color: rgb(15, 11, 241);
 color: rgba(214, 252, 78, 1);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main {
-display: grid;
-}
 .seccionUno {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -61,7 +58,7 @@ display: grid;
 grid-row: auto;
 justify-content: center;
 width: 100%;  
-margin: 10px 0px;
+padding: 5px;
 background-color: rgba(214, 252, 78, 1);
 }
 .uneteA {
@@ -80,12 +77,13 @@ color: rgb(15, 11, 241);
 .custom-menu-width {
 width: 200px; 
 }
-.carousel-inner{
-padding: 20px;
+.imgcarousel {
+  max-height: 400px; 
+  width: 100%;
+  object-fit: cover;
 }
-.imgcarousel{
-height: 480px;
-object-fit: cover;
+.carousel-inner{
+padding: 10px;
 }
 h2 {
 color: rgba(163, 13, 137, 1);
