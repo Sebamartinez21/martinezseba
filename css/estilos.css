@@ -26,10 +26,10 @@ margin-left: 20px;
   height: 3px;
   background-color: rgba(214, 252, 78, 1);
   background-image: linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
+  linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
+  linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
   background-size: 100% 3px;
-  background-position: 0 0, 0 10px, 0 20px; /* Agregar posición para las otras dos líneas */
+  background-position: 0 0, 0 10px, 0 20px; 
   background-repeat: no-repeat;
 }
 .coloDefondo .navbar-nav .nav-link {
@@ -104,20 +104,6 @@ padding: 20px;
 max-width: 100%; 
 height: auto; 
 border-radius: 10px; 
-}
-.conoceMas {
-display:grid;
-justify-self: end;
-margin-top: 10px;
-margin-bottom: 10px;
-margin-right: 10px;
-background-color:rgba(163, 13, 137, 1);
-border: none;
-border-radius: 20px;
-color: #fff;
-cursor: pointer;
-text-decoration: none;
-text-align: center;
 }
 footer {
 background-color: #eee9e9;
