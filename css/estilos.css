@@ -31,7 +31,10 @@ margin-left: 2px;
   background-position: 0 0, 0 2px, 0 4px; 
   background-repeat: no-repeat;
  }
-
+ .navbar-toggler-icon {
+  width: 40px;
+  height: 2px;
+}
 .coloDefondo .navbar-nav .nav-link {
 color: rgba(214, 252, 78, 1);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -49,13 +52,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .seccionUno {
 display: grid;
+height: 100%;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 justify-items: center;
 align-items: center;
 }
 .line {
-display: grid;
-grid-row: auto;
+display: inline-block;
+height: 100%;
 justify-content: center;
 width: 100%;  
 padding: 5px;
@@ -103,6 +107,7 @@ padding: 20px;
 .imagenes img {
 max-width: 100%; 
 height: auto; 
+border-top: 10px;
 border-radius: 10px; 
 }
 footer {
@@ -263,6 +268,13 @@ border: none;
   margin: auto;
   cursor: pointer;
   }
+  .mainEntrenamiento .container {
+    margin-bottom: 20px; 
+}
+.mainEntrenamiento .col-lg-6 {
+  margin-bottom: 20px; 
+}
+
 .entrenamientoBtn {
 background-color: rgb(44, 223, 44);
 border: none;
@@ -360,13 +372,13 @@ font-size: 1rem;
 }
 @media (max-width: 991.98px) {
   .navbar-toggler-icon {
-    width: 30px;
+    width: 40px;
     height: 2px;
     background-image:
       linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
       linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
       linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
-    background-size: auto;
+    background-size: contain;
        
   }
 
@@ -382,7 +394,7 @@ font-size: 1rem;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
   .btnFormulario,
   .btnFormularioUno {
   width: 100%;
