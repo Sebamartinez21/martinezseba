@@ -4,51 +4,30 @@ margin:0;
 padding: 0;
 box-sizing: border-box;
 }
-
-.coloDefondo {
+.colorNavbar {
 background-color: rgb(15, 11, 241);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px;
+.colorNavbar .navbar-nav .nav-link,
+.colorNavbar .btn-outline-success {
+color: rgba(214, 252, 78, 1); 
 }
-.navbar-brand {
-margin-right: 10px;
+.colorNavbar .btn-outline-success {
+border-color:rgba(214, 252, 78, 1); 
+}
+.colorNavbar .btn-outline-success:hover {
+background-color:rgba(214, 252, 78, 1); 
+color: rgb(15, 11, 241) ;
+}
+.colorNavbar .navbar-nav .nav-item {
+ display: inline-block; 
+margin: 0 15px; 
+}
+.navbar-toggler {
+border-color: rgba(214, 252, 78, 1);
 }
 .dropdown {
-margin-left: 2px;
-}
-.navbar-toggler-icon {
-  background-color: rgba(214, 252, 78, 1);
-  background-image:
-    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-    linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
-  background-size: contain;
-  background-position: 0 0, 0 2px, 0 4px; 
-  background-repeat: no-repeat;
- }
- .navbar-toggler-icon {
-  width: 40px;
-  height: 2px;
-}
-.coloDefondo .navbar-nav .nav-link {
-color: rgba(214, 252, 78, 1);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.coloDefondo .navbar-nav .nav-link.active {
-color: rgba(214, 252, 78, 1);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.color-menu{
-background-color: rgb(15, 11, 241);
-}
-.dropdown-item {
-color: rgba(214, 252, 78, 1);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: solid;
 }
 .seccionUno {
 display: grid;
@@ -89,7 +68,7 @@ width: 200px;
 .carousel-inner{
 padding: 10px;
 }
-h2 {
+.sobreNosotros {
 color: rgba(163, 13, 137, 1);
 margin: 5px;
 padding: 10px;
@@ -110,7 +89,7 @@ height: auto;
 border-top: 10px;
 border-radius: 10px; 
 }
-footer {
+.footerGeneral {
 background-color: #eee9e9;
 }
 .descripcionFooter {
@@ -121,25 +100,25 @@ text-decoration: none;
 border: none; 
 }
 .reserva {
-  color: rgb(15, 11, 241);
-  width: 100%;
-  margin-left: 10px;
-  }
-  .mainUno {
-  display: grid;
-  width: 100%;
-  }
-  form {
-  margin-top: 20px;
-  margin-right: 10px;
-  }
-  label {
-  display: block;
-  font-weight: bold;
-  margin: 20px;
-  margin-bottom: 5px;
-  color: #333; 
-  }
+color: rgb(15, 11, 241);
+width: 100%;
+margin-left: 10px;
+}
+.mainUno {
+display: grid;
+width: 100%;
+}
+.FormReservas {
+margin-top: 20px;
+margin-right: 10px;
+}
+label {
+display: block;
+font-weight: bold;
+margin: 20px;
+margin-bottom: 5px;
+color: #333; 
+}
   #email{
   display: block;
   width:50%;
@@ -370,30 +349,6 @@ border: none;
 padding: 8px 20px;
 font-size: 1rem;
 }
-@media (max-width: 991.98px) {
-  .navbar-toggler-icon {
-    width: 40px;
-    height: 2px;
-    background-image:
-      linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-      linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1)),
-      linear-gradient(rgba(214, 252, 78, 1), rgba(214, 252, 78, 1));
-    background-size: contain;
-       
-  }
-
-  .navbar-toggler,
-  .navbar-toggler:focus {
-    border-color: rgba(214, 252, 78, 1);
-  }
-}
-
-@media (min-width: 991.98px) {
-  nav {
-    margin-top: 10px;
-  }
-}
-
 @media (max-width: 767.98px) {
   .btnFormulario,
   .btnFormularioUno {
