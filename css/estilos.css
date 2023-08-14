@@ -19,7 +19,7 @@ background-color:rgba(214, 252, 78, 1);
 color: rgb(15, 11, 241) ;
 }
 .colorNavbar .navbar-nav .nav-item {
- display: inline-block; 
+display: inline-block; 
 margin: 0 15px; 
 }
 .navbar-toggler {
@@ -54,9 +54,9 @@ color: rgb(15, 11, 241);
 width: 200px; 
 }
 .imgcarousel {
-  max-height: 400px; 
-  width: 100%;
-  object-fit: cover;
+max-height: 400px; 
+width: 100%;
+object-fit: cover;
 }
 .carousel-inner{
 padding: 10px;
