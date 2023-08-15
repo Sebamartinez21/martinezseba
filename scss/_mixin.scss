@@ -1,0 +1,29 @@
+@mixin label {
+  display: block;
+  font-weight: bold;
+  margin: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+label {
+    @include label;
+}
+
+@mixin btnCompetencias {
+
+  background-color: rgb(44, 223, 44);
+  color: #fff;
+}
+
+.btnCompetencias {
+
+    @include btnCompetencias; 
+}
+
+@mixin h1 ($size){
+
+    font-size: $size; 
+}
+.h1 {
+    @include h1(30px)
+}

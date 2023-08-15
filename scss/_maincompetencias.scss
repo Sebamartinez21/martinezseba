@@ -1,0 +1,14 @@
+main {
+	.btnCompetencias {
+		background-color: rgb(44, 223, 44);
+		color: #fff;
+		&:hover {
+			background-color: rgb(6, 248, 78);
+			color: #fff;
+		}
+	}
+	.tituloCompetencias {
+		color: rgb(15, 11, 241);
+	}
+	
+}

@@ -1,0 +1,12 @@
+.footerGeneral {
+	background-color: $colorFooter;
+	.descripcionFooter {
+		text-align: justify;
+	}
+	.iconosRedes {
+		a {
+			text-decoration: none;
+			border: none;
+		}
+	}
+}

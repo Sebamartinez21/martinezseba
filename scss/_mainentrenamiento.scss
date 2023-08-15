@@ -1,0 +1,33 @@
+.mainEntrenamiento {
+	.container {
+		margin-bottom: 20px;
+		margin-bottom: 5px;
+	}
+	.col-lg-6 {
+		margin-bottom: 20px;
+		margin-bottom: 10px;
+	}
+	.entrenamientoBtn {
+		background-color: rgb(44, 223, 44);
+		border: none;
+		border-radius: 20px;
+		padding: 10px;
+		color: #fff;
+		cursor: pointer;
+		text-decoration: none;
+		align-content: center;
+		&:hover {
+			background-color: rgb(79, 170, 79);
+		}
+	}
+	.tituloEntrenamiento {
+		color: rgb(15, 11, 241);
+		text-align: center;
+	}
+	.textoEntrenamiento {
+		text-align: justify;
+	}
+	.imgEntrenamiento {
+		border-radius: 20px;
+	}
+}

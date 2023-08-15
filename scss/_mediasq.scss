@@ -1,0 +1,77 @@
+@media (max-width: 767.98px) {
+    .btnFormulario,
+    .btnFormularioUno {
+      width: 100%;
+    }
+  
+    .mainEntrenamiento .row {
+      justify-content: center;
+    }
+  
+    .tarjetaPersonalizada {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  
+    @media (min-width: 768px) and (max-width: 1080px) {
+      .tarjetaPersonalizada {
+        flex: 1 0 calc(100% - 20px);
+      }
+    }
+  
+    @media (min-width: 320px) and (min-height: 1000px) {
+      .containerTarjetas {
+        margin: 20px;
+      }
+    }
+  
+    .reserva {
+      color: rgb(15, 11, 241);
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+    .mainUno {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+    }
+  
+    .formularioReserva {
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  
+    @media (max-width: 768px) {
+      .mainUno {
+        padding: 10px;
+      }
+  
+      .formularioReserva {
+        max-width: 100%;
+        margin-right: 0;
+      }
+  
+      .campos,
+      .horario,
+      .dia,
+      .cancha,
+      #email,
+      .mensaje {
+        width: 90%;
+        margin: 5px;
+      }
+  
+      .referenciasReservas,
+      .iframe {
+        width: 100%;
+        text-align: center;
+      }
+  
+      .iframe {
+        height: 300px;
+      }
+    }
+  }
+  
