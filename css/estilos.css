@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 header .colorNavbar {
   background-color: rgb(15, 11, 241);
 }
@@ -25,12 +24,10 @@ header .dropdown {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: solid;
 }
-
 header .colorNavbar .navbar-nav .nav-link,
 header .colorNavbar .btn-outline-success {
   color: rgb(214, 252, 78);
 }
-
 main .line {
   display: inline-block;
   height: 100%;
@@ -144,14 +141,12 @@ label {
 .horario:focus,
 .dia:focus,
 .cancha:focus {
-  background-color: rgb(203, 207, 206);
+background-color: rgb(203, 207, 206);
 }
-
 #email,
 .mensaje {
-  width: 50%;
+width: 50%;
 }
-
 .btnFormulario,
 .btnFormularioUno {
   background-color: rgb(66, 218, 66);
@@ -172,7 +167,6 @@ label {
 .btnFormularioUno.btnFormularioUno {
   background-color: rgb(223, 89, 89);
 }
-
 .referenciasReservas {
   color: rgb(15, 11, 241);
   display: block;
@@ -180,7 +174,6 @@ label {
   margin: 10px;
   padding: 10px;
 }
-
 .iframe {
   display: block;
   width: 100%;
@@ -188,7 +181,6 @@ label {
   margin: auto;
   cursor: pointer;
 }
-
 .mainEntrenamiento .container {
   margin-bottom: 20px;
   margin-bottom: 5px;
@@ -220,7 +212,6 @@ label {
 .mainEntrenamiento .imgEntrenamiento {
   border-radius: 20px;
 }
-
 main .btnCompetencias {
   background-color: rgb(44, 223, 44);
   color: #fff;
@@ -237,7 +228,6 @@ main .tituloCompetencias {
   background-color: white;
   padding: 20px;
 }
-
 .containerTarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -247,7 +237,6 @@ main .tituloCompetencias {
   padding: 20px;
   box-sizing: border-box;
 }
-
 .tarjetaPersonalizada {
   flex: 1 0 calc(50% - 15px);
   max-width: 18rem;
@@ -289,7 +278,6 @@ main .tituloCompetencias {
   padding: 8px 20px;
   font-size: 1rem;
 }
-
 label {
   display: block;
   font-weight: bold;
@@ -297,12 +285,10 @@ label {
   margin-bottom: 5px;
   color: #333;
 }
-
 .btnCompetencias {
   background-color: rgb(44, 223, 44);
   color: #fff;
 }
-
 .h1 {
   font-size: 30px;
 }
