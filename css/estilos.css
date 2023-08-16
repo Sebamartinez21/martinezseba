@@ -92,7 +92,11 @@ main .imagenes img {
   text-decoration: none;
   border: none;
 }
-
+.linkWeb{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 .reserva {
   color: rgb(15, 11, 241);
   width: 100%;
