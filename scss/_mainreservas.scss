@@ -1,89 +1,97 @@
+
+.mainUno {
+  display: grid;
+  width: 100%;
+  background: url(../imagenes/imagen-reserva.jpeg);
+  color: #fff;
+}
 .reserva {
-    color: rgb(15, 11, 241);
-    width: 100%;
-    margin-left: 10px;
-  }
+  text-align: center;
+  color: #fff;
+
+}
+
+.FormReservas {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-bottom: 5px;
+  color: rgb(175, 168, 168);
+  text-align: center;
+}
+
+#email,
+.mensaje,
+.campos,
+.horario,
+.dia,
+.cancha {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  box-shadow: 5px 2px 5px;
+  opacity: 20px;
+  color:rgb(131, 127, 127);
+  cursor: pointer;
+}
+
+#email:focus,
+.mensaje:focus,
+.campos:focus,
+.horario:focus,
+.dia:focus,
+.cancha:focus {
+  background-color: rgb(203, 207, 206);
+}
+
+.btnFormulario,
+.btnFormularioUno {
+  background-color: rgb(66, 218, 66);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: pointer;
   
-  .mainUno {
-    display: grid;
-    width: 100%;
-  }
   
-  .FormReservas {
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin: 20px;
-    margin-bottom: 5px;
-    color: #333;
-  }
-  
-  #email,
-  .mensaje,
-  .campos,
-  .horario,
-  .dia,
-  .cancha {
-    display: block;
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    box-shadow: 5px 2px 5px;
-    opacity: 20px;
-    color: gray;
-  
-    &:focus {
-      background-color: rgb(203, 207, 206);
-    }
-  }
-  
-  #email,
-  .mensaje {
-    width: 50%;
-  }
-  
-  .btnFormulario,
-  .btnFormularioUno {
-    background-color: rgb(66, 218, 66);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    place-items: center;
-    justify-self: center;
-    text-decoration: none;
-  
-    &.btnFormularioUno {
-      background-color: rgb(223, 89, 89);
-    }
-  }
-  
-  .referenciasReservas {
-    color: rgb(15, 11, 241);
-    display: block;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-  }
-  
-  .iframe {
-    display: block;
-    width: 100%;
-    height: 400px;
-    margin: auto;
-    cursor: pointer;
-  }
-  
+}
+
+.btnFormularioUno {
+  background-color: rgb(223, 89, 89);
+
+}
+
+.referenciasReservas {
+  color:white;
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  cursor: pointer;
+}

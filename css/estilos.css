@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header .colorNavbar {
   background-color: rgb(15, 11, 241);
 }
@@ -24,10 +25,50 @@ header .dropdown {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: solid;
 }
+
 header .colorNavbar .navbar-nav .nav-link,
 header .colorNavbar .btn-outline-success {
   color: rgb(214, 252, 78);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .colorNavbar {
+  background-color: rgb(15, 11, 241);
+}
+
+header .colorNavbar .btn-outline-success {
+  border-color: rgb(214, 252, 78);
+}
+
+header .colorNavbar .btn-outline-success:hover {
+  background-color: rgb(214, 252, 78);
+  color: rgb(15, 11, 241);
+}
+
+header .colorNavbar .navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header .navbar-toggler {
+  border-color: rgb(214, 252, 78);
+}
+
+header .dropdown {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: solid;
+}
+
+header .colorNavbar .navbar-nav .nav-link,
+header .colorNavbar .btn-outline-success {
+  color: rgb(214, 252, 78);
+}
+
 main .line {
   display: inline-block;
   height: 100%;
@@ -36,9 +77,11 @@ main .line {
   padding: 5px;
   background-color: rgb(214, 252, 78);
 }
+
 main .line:hover {
   background-color: whitesmoke;
 }
+
 main .uneteA {
   color: rgb(15, 11, 241);
   text-decoration: none;
@@ -46,40 +89,67 @@ main .uneteA {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 36px;
 }
+
 main .color {
   color: rgb(15, 11, 241);
 }
+
 main .custom-menu-width {
   width: 200px;
 }
+
 main .imgcarousel {
   max-height: 400px;
   width: 100%;
   object-fit: cover;
 }
+
 main .carousel-inner {
   padding: 10px;
 }
+
 main .sobreNosotros {
   color: rgb(163, 13, 137);
   margin: 5px;
   padding: 10px;
 }
+
 main .texto {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
   padding: 10px;
 }
+
 main .seccionDos {
   text-align: center;
   padding: 20px;
 }
+
 main .imagenes img {
   max-width: 100%;
   height: auto;
   border-top: 10px;
   border-radius: 10px;
+}
+
+.footerGeneral {
+  background-color: #eee9e9;
+}
+
+.footerGeneral .descripcionFooter {
+  text-align: justify;
+}
+
+.footerGeneral .iconosRedes a {
+  text-decoration: none;
+  border: none;
+}
+
+.linkWeb {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .footerGeneral {
@@ -92,20 +162,22 @@ main .imagenes img {
   text-decoration: none;
   border: none;
 }
-.linkWeb{
+.footerGeneral .linkWeb {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-}
-.reserva {
-  color: rgb(15, 11, 241);
-  width: 100%;
-  margin-left: 10px;
 }
 
 .mainUno {
   display: grid;
   width: 100%;
+  background: url(../imagenes/imagen-reserva.jpeg);
+  color: #fff;
+}
+
+.reserva {
+  text-align: center;
+  color: #fff;
 }
 
 .FormReservas {
@@ -116,9 +188,10 @@ main .imagenes img {
 label {
   display: block;
   font-weight: bold;
-  margin: 20px;
+  margin: 20px auto;
   margin-bottom: 5px;
-  color: #333;
+  color: rgb(175, 168, 168);
+  text-align: center;
 }
 
 #email,
@@ -129,7 +202,7 @@ label {
 .cancha {
   display: block;
   width: 50%;
-  margin: 20px;
+  margin: 0 auto;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 5px;
@@ -137,20 +210,19 @@ label {
   margin-bottom: 10px;
   box-shadow: 5px 2px 5px;
   opacity: 20px;
-  color: gray;
+  color: rgb(131, 127, 127);
+  cursor: pointer;
 }
+
 #email:focus,
 .mensaje:focus,
 .campos:focus,
 .horario:focus,
 .dia:focus,
 .cancha:focus {
-background-color: rgb(203, 207, 206);
+  background-color: rgb(203, 207, 206);
 }
-#email,
-.mensaje {
-width: 50%;
-}
+
 .btnFormulario,
 .btnFormularioUno {
   background-color: rgb(66, 218, 66);
@@ -161,23 +233,27 @@ width: 50%;
   font-size: 20px;
   margin-top: 10px;
   cursor: pointer;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  place-items: center;
-  justify-self: center;
-  text-decoration: none;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: pointer;
 }
-.btnFormulario.btnFormularioUno,
-.btnFormularioUno.btnFormularioUno {
+
+.btnFormularioUno {
   background-color: rgb(223, 89, 89);
 }
+
 .referenciasReservas {
-  color: rgb(15, 11, 241);
+  color: white;
   display: block;
   width: 100%;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
+  text-align: center;
 }
+
 .iframe {
   display: block;
   width: 100%;
@@ -185,6 +261,7 @@ width: 50%;
   margin: auto;
   cursor: pointer;
 }
+
 .mainEntrenamiento .container {
   margin-bottom: 20px;
   margin-bottom: 5px;
@@ -216,6 +293,7 @@ width: 50%;
 .mainEntrenamiento .imgEntrenamiento {
   border-radius: 20px;
 }
+
 main .btnCompetencias {
   background-color: rgb(44, 223, 44);
   color: #fff;
@@ -232,6 +310,7 @@ main .tituloCompetencias {
   background-color: white;
   padding: 20px;
 }
+
 .containerTarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -241,6 +320,7 @@ main .tituloCompetencias {
   padding: 20px;
   box-sizing: border-box;
 }
+
 .tarjetaPersonalizada {
   flex: 1 0 calc(50% - 15px);
   max-width: 18rem;
@@ -282,6 +362,7 @@ main .tituloCompetencias {
   padding: 8px 20px;
   font-size: 1rem;
 }
+
 label {
   display: block;
   font-weight: bold;
@@ -289,10 +370,12 @@ label {
   margin-bottom: 5px;
   color: #333;
 }
+
 .btnCompetencias {
   background-color: rgb(44, 223, 44);
   color: #fff;
 }
+
 .h1 {
   font-size: 30px;
 }
@@ -302,42 +385,47 @@ label {
   .btnFormularioUno {
     width: 100%;
   }
+}
+@media (max-width: 767.98px) {
   .mainEntrenamiento .row {
     justify-content: center;
   }
+}
+@media (max-width: 767.98px) {
   .tarjetaPersonalizada {
     flex: 1 0 100%;
     max-width: 100%;
   }
 }
-@media (max-width: 767.98px) and (min-width: 768px) and (max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1080px) {
   .tarjetaPersonalizada {
     flex: 1 0 calc(100% - 20px);
   }
 }
-@media (max-width: 767.98px) and (min-width: 320px) and (min-height: 1000px) {
+@media (min-width: 320px) and (min-height: 1000px) {
   .containerTarjetas {
     margin: 20px;
   }
 }
-@media (max-width: 767.98px) {
-  .reserva {
-    color: rgb(15, 11, 241);
-    width: 100%;
-    margin-left: 10px;
-  }
-  .mainUno {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    width: 100%;
-  }
-  .formularioReserva {
-    margin-top: 20px;
-    margin-right: 10px;
-  }
+.reserva {
+  color: rgb(15, 11, 241);
+  width: 100%;
+  margin-left: 10px;
 }
-@media (max-width: 767.98px) and (max-width: 768px) {
+
+.mainUno {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.formularioReserva {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
   .mainUno {
     padding: 10px;
   }
@@ -352,7 +440,7 @@ label {
   #email,
   .mensaje {
     width: 90%;
-    margin: 5px;
+    margin: 5pz;
   }
   .referenciasReservas,
   .iframe {
