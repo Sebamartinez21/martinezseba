@@ -3,11 +3,13 @@
   display: grid;
   width: 100%;
   background: url(../imagenes/imagen-reserva.jpeg);
-  color: #fff;
+  color: #151515;
 }
 .reserva {
   text-align: center;
+  font-style: italic;
   color: #fff;
+  border-bottom: 30px;
 }
 
 .FormReservas {
@@ -22,6 +24,7 @@ label {
   margin-bottom: 5px;
   color: rgb(175, 168, 168);
   text-align: center;
+  text-transform: uppercase;
 }
 
 #email,
@@ -31,10 +34,10 @@ label {
 .dia,
 .cancha {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   padding: 10px;
-  border: 2px solid #ccc;
+  border: 2px solid #ece6e6;
   border-radius: 5px;
   font-size: 20px;
   margin-bottom: 10px;
@@ -50,7 +53,7 @@ label {
 .horario:focus,
 .dia:focus,
 .cancha:focus {
-  background-color: rgb(203, 207, 206);
+  background-color: rgb(240, 242, 241);
 }
 
 .btnFormulario,
@@ -62,29 +65,31 @@ label {
   border-radius: 5px;
   font-size: 20px;
   margin-top: 10px;
-  cursor: pointer;
   display: block;
-  width: 50%;
+  width: 20%;
   margin: 0 auto;
   padding: 10px;
   border: 2px solid #ccc;
   cursor: pointer;
-  
-  
 }
-
 .btnFormularioUno {
   background-color: rgb(223, 89, 89);
-
 }
 
-.referenciasReservas {
-  color:white;
+.bontonEstamosaqui {
+  background-color: rgb(66, 218, 66);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
   display: block;
-  width: 100%;
-  margin: 10px auto;
+  width: 20%;
+  margin: 0 auto;
   padding: 10px;
-  text-align: center;
+  border: 2px solid #ccc;
+  cursor: pointer;
 }
 
 .iframe {

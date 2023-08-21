@@ -3,7 +3,7 @@
   font-weight: bold;
   margin: 20px;
   margin-bottom: 5px;
-  color: #333;
+  color: #f6f1f1;
 }
 label {
     @include label;
@@ -20,10 +20,3 @@ label {
     @include btnCompetencias; 
 }
 
-@mixin h1 ($size){
-
-    font-size: $size; 
-}
-.h1 {
-    @include h1(30px)
-}

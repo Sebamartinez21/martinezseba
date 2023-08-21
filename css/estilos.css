@@ -31,43 +31,7 @@ header .colorNavbar .btn-outline-success {
   color: rgb(214, 252, 78);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-header .colorNavbar {
-  background-color: rgb(15, 11, 241);
-}
-
-header .colorNavbar .btn-outline-success {
-  border-color: rgb(214, 252, 78);
-}
-
-header .colorNavbar .btn-outline-success:hover {
-  background-color: rgb(214, 252, 78);
-  color: rgb(15, 11, 241);
-}
-
-header .colorNavbar .navbar-nav .nav-item {
-  display: inline-block;
-  margin: 0 15px;
-}
-
-header .navbar-toggler {
-  border-color: rgb(214, 252, 78);
-}
-
-header .dropdown {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: solid;
-}
-
-header .colorNavbar .navbar-nav .nav-link,
-header .colorNavbar .btn-outline-success {
-  color: rgb(214, 252, 78);
-}
 
 main .line {
   display: inline-block;
@@ -136,25 +100,6 @@ main .imagenes img {
 .footerGeneral {
   background-color: #eee9e9;
 }
-
-.footerGeneral .descripcionFooter {
-  text-align: justify;
-}
-
-.footerGeneral .iconosRedes a {
-  text-decoration: none;
-  border: none;
-}
-
-.linkWeb {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.footerGeneral {
-  background-color: #eee9e9;
-}
 .footerGeneral .descripcionFooter {
   text-align: justify;
 }
@@ -172,12 +117,14 @@ main .imagenes img {
   display: grid;
   width: 100%;
   background: url(../imagenes/imagen-reserva.jpeg);
-  color: #fff;
+  color: #151515;
 }
 
 .reserva {
   text-align: center;
+  font-style: italic;
   color: #fff;
+  border-bottom: 30px;
 }
 
 .FormReservas {
@@ -192,6 +139,7 @@ label {
   margin-bottom: 5px;
   color: rgb(175, 168, 168);
   text-align: center;
+  text-transform: uppercase;
 }
 
 #email,
@@ -201,10 +149,10 @@ label {
 .dia,
 .cancha {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   padding: 10px;
-  border: 2px solid #ccc;
+  border: 2px solid #ece6e6;
   border-radius: 5px;
   font-size: 20px;
   margin-bottom: 10px;
@@ -220,7 +168,7 @@ label {
 .horario:focus,
 .dia:focus,
 .cancha:focus {
-  background-color: rgb(203, 207, 206);
+  background-color: rgb(240, 242, 241);
 }
 
 .btnFormulario,
@@ -232,9 +180,8 @@ label {
   border-radius: 5px;
   font-size: 20px;
   margin-top: 10px;
-  cursor: pointer;
   display: block;
-  width: 50%;
+  width: 20%;
   margin: 0 auto;
   padding: 10px;
   border: 2px solid #ccc;
@@ -245,13 +192,20 @@ label {
   background-color: rgb(223, 89, 89);
 }
 
-.referenciasReservas {
-  color: white;
+.bontonEstamosaqui {
+  background-color: rgb(66, 218, 66);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
   display: block;
-  width: 100%;
-  margin: 10px auto;
+  width: 20%;
+  margin: 0 auto;
   padding: 10px;
-  text-align: center;
+  border: 2px solid #ccc;
+  cursor: pointer;
 }
 
 .iframe {
@@ -368,16 +322,12 @@ label {
   font-weight: bold;
   margin: 20px;
   margin-bottom: 5px;
-  color: #333;
+  color: #f6f1f1;
 }
 
 .btnCompetencias {
   background-color: rgb(44, 223, 44);
   color: #fff;
-}
-
-.h1 {
-  font-size: 30px;
 }
 
 @media (max-width: 767.98px) {
@@ -408,9 +358,10 @@ label {
   }
 }
 .reserva {
-  color: rgb(15, 11, 241);
+  color: white;
   width: 100%;
   margin-left: 10px;
+  border-bottom: 30px;
 }
 
 .mainUno {
