@@ -31,8 +31,6 @@ header .colorNavbar .btn-outline-success {
   color: rgb(214, 252, 78);
 }
 
-
-
 main .line {
   display: inline-block;
   height: 100%;
@@ -62,14 +60,10 @@ main .custom-menu-width {
   width: 200px;
 }
 
-main .imgcarousel {
-  max-height: 400px;
+main .imagenCarousel {
+  height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-main .carousel-inner {
-  padding: 10px;
 }
 
 main .sobreNosotros {
