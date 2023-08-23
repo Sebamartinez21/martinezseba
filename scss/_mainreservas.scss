@@ -1,101 +1,94 @@
 
 .mainUno {
-  display: grid;
-  width: 100%;
-  background: url(../imagenes/imagen-reserva.jpeg);
-  color: #151515;
+	display: grid;
+	width: 100%;
+	background: url(../imagenes/imagen-reserva.jpeg);
+	color: #151515;
 }
 .reserva {
-  text-align: center;
-  font-style: italic;
-  color: #fff;
-  border-bottom: 30px;
+	text-align: center;
+	font-style: italic;
+	color: #fff;
+	border-bottom: 30px;
 }
-
 .FormReservas {
-  margin-top: 20px;
-  margin-right: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
 }
-
 label {
-  display: block;
-  font-weight: bold;
-  margin: 20px auto;
-  margin-bottom: 5px;
-  color: rgb(175, 168, 168);
-  text-align: center;
-  text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	margin: 20px auto;
+	margin-bottom: 5px;
+	color: rgb(175, 168, 168);
+	text-align: center;
+	text-transform: uppercase;
 }
-
 #email,
 .mensaje,
 .campos,
 .horario,
 .dia,
 .cancha {
-  display: block;
-  width: 40%;
-  margin: 0 auto;
-  padding: 10px;
-  border: 2px solid #ece6e6;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-bottom: 10px;
-  box-shadow: 5px 2px 5px;
-  opacity: 20px;
-  color:rgb(131, 127, 127);
-  cursor: pointer;
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #ece6e6;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	box-shadow: 5px 2px 5px;
+	opacity: 20px;
+	color: rgb(131, 127, 127);
+	cursor: pointer;
 }
-
 #email:focus,
 .mensaje:focus,
 .campos:focus,
 .horario:focus,
 .dia:focus,
 .cancha:focus {
-  background-color: rgb(240, 242, 241);
+	background-color: rgb(240, 242, 241);
 }
-
 .btnFormulario,
 .btnFormularioUno {
-  background-color: rgb(66, 218, 66);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-top: 10px;
-  display: block;
-  width: 20%;
-  margin: 0 auto;
-  padding: 10px;
-  border: 2px solid #ccc;
-  cursor: pointer;
+	background-color: rgb(66, 218, 66);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 10px;
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #ccc;
+	cursor: pointer;
 }
 .btnFormularioUno {
-  background-color: rgb(223, 89, 89);
+	background-color: rgb(223, 89, 89);
 }
-
 .bontonEstamosaqui {
-  background-color: rgb(66, 218, 66);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-top: 10px;
-  display: block;
-  width: 20%;
-  margin: 0 auto;
-  padding: 10px;
-  border: 2px solid #ccc;
-  cursor: pointer;
+	background-color: rgb(66, 218, 66);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 10px;
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #ccc;
+	cursor: pointer;
 }
-
 .iframe {
-  display: block;
-  width: 100%;
-  height: 400px;
-  margin: auto;
-  cursor: pointer;
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	cursor: pointer;
 }

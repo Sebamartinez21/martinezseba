@@ -1,14 +1,16 @@
 main {
 	.btnCompetencias {
-		background-color: rgb(44, 223, 44);
-		color: #fff;
+		background-color: rgb(214, 252, 78);
+		color: rgb(15, 11, 241);
 		&:hover {
-			background-color: rgb(6, 248, 78);
-			color: #fff;
+			background-color: rgb(207, 229, 125);
+			color:black;
 		}
 	}
 	.tituloCompetencias {
-		color: rgb(15, 11, 241);
+		color:  rgb(163, 13, 137);
 	}
-	
+	.textoCompetencias {
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
 }

@@ -39,11 +39,9 @@ main .line {
   padding: 5px;
   background-color: rgb(214, 252, 78);
 }
-
 main .line:hover {
   background-color: whitesmoke;
 }
-
 main .uneteA {
   color: rgb(15, 11, 241);
   text-decoration: none;
@@ -51,39 +49,32 @@ main .uneteA {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 36px;
 }
-
 main .color {
   color: rgb(15, 11, 241);
 }
-
 main .custom-menu-width {
   width: 200px;
 }
-
 main .imagenCarousel {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 main .sobreNosotros {
   color: rgb(163, 13, 137);
   margin: 5px;
   padding: 10px;
 }
-
 main .texto {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
   padding: 10px;
 }
-
 main .seccionDos {
   text-align: center;
   padding: 20px;
 }
-
 main .imagenes img {
   max-width: 100%;
   height: auto;
@@ -243,15 +234,18 @@ label {
 }
 
 main .btnCompetencias {
-  background-color: rgb(44, 223, 44);
-  color: #fff;
+  background-color: rgb(214, 252, 78);
+  color: rgb(15, 11, 241);
 }
 main .btnCompetencias:hover {
-  background-color: rgb(6, 248, 78);
-  color: #fff;
+  background-color: rgb(207, 229, 125);
+  color: black;
 }
 main .tituloCompetencias {
-  color: rgb(15, 11, 241);
+  color: rgb(163, 13, 137);
+}
+main .textoCompetencias {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .mainEquipamiento {
