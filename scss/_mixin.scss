@@ -8,15 +8,11 @@
 label {
     @include label;
 }
-
 @mixin btnCompetencias {
-
   background-color: rgb(44, 223, 44);
   color: #fff;
 }
-
 .btnCompetencias {
-
-    @include btnCompetencias; 
+  @include btnCompetencias; 
 }
 
