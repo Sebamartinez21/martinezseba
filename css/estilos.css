@@ -1,3 +1,4 @@
+/*estilos de css en general y header bootstrap*/
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +32,8 @@ header .colorNavbar .btn-outline-success {
   color: rgb(214, 252, 78);
 }
 
+/*fin de header*/
+/*main index*/
 main .line {
   display: inline-block;
   height: 100%;
@@ -82,6 +85,8 @@ main .imagenes img {
   border-radius: 10px;
 }
 
+/*fin de main index*/
+/*footer en general Bootstrap*/
 .footerGeneral {
   background-color: #eee9e9;
 }
@@ -97,11 +102,18 @@ main .imagenes img {
   color: #333;
   font-weight: bold;
 }
+.footerGeneral .tituloFooter {
+  font-size: 20px;
+  font-style: italic;
+  color: #4f4e4e;
+  font-weight: bolder;
+}
 
+/*fin de footer*/
 .mainUno {
   display: grid;
   width: 100%;
-  background: url(../imagenes/imagen-reserva.jpeg);
+  background: url(../imagenes/jugadorconpaletasaltando.jpeg);
   color: #151515;
 }
 
@@ -201,6 +213,7 @@ label {
   cursor: pointer;
 }
 
+/*estilos entrenamiento*/
 .mainEntrenamiento .container {
   margin-bottom: 20px;
   margin-bottom: 5px;
@@ -233,6 +246,8 @@ label {
   border-radius: 20px;
 }
 
+/*fin estilos entrenamiento*/
+/*main competencias bootstrap*/
 main .btnCompetencias {
   background-color: rgb(214, 252, 78);
   color: rgb(15, 11, 241);
@@ -248,6 +263,7 @@ main .textoCompetencias {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+/*main y tarjetas de quipamiento*/
 .mainEquipamiento {
   background-color: white;
   padding: 20px;
@@ -305,6 +321,7 @@ main .textoCompetencias {
   font-size: 1rem;
 }
 
+/*fin de estilos main y tarjetas de quipamiento*/
 label {
   display: block;
   font-weight: bold;
@@ -318,6 +335,7 @@ label {
   color: #fff;
 }
 
+/*inicio de MQ en general*/
 @media (max-width: 767.98px) {
   .btnFormulario,
   .btnFormularioUno {
